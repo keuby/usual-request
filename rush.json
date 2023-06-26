@@ -10,5 +10,18 @@
   "repository": {
     "url": "https://github.com/keuby/usual-request"
   },
-  "projects": []
+  "projects": [
+    {
+      "packageName": "usual-request",
+      "projectFolder": "packages/usual-request",
+      "shouldPublish": true,
+      "versionPolicyName": "usual-request"
+    },
+    {
+      "packageName": "usual-request-vue",
+      "projectFolder": "packages/usual-request-vue",
+      "shouldPublish": true,
+      "versionPolicyName": "usual-request"
+    }
+  ]
 }
