@@ -22,6 +22,24 @@
       "projectFolder": "packages/usual-request-vue",
       "shouldPublish": true,
       "versionPolicyName": "usual-request"
+    },
+    {
+      "packageName": "@usual-request/core",
+      "projectFolder": "packages/core",
+      "shouldPublish": true,
+      "versionPolicyName": "usual-request"
+    },
+    {
+      "packageName": "@usual-request/shared",
+      "projectFolder": "packages/shared",
+      "shouldPublish": true,
+      "versionPolicyName": "usual-request"
+    },
+    {
+      "packageName": "@usual-request/auth-decorator",
+      "projectFolder": "packages/auth-decorator",
+      "shouldPublish": true,
+      "versionPolicyName": "usual-request"
     }
   ]
 }

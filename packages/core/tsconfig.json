@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "ESNext",
+    "declaration": true,
+    "declarationMap": false,
+    "sourceMap": false,
+    "lib": ["ESNext", "DOM"],
+    "strict": true,
+    "target": "ES6",
+    "verbatimModuleSyntax": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["./src", "./types"],
+  "exclude": ["node_modules", "dist"]
+}

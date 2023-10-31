@@ -1,0 +1,25 @@
+{
+  "name": "@usual-request/auth-decorator",
+  "version": "0.0.4",
+  "main": "./dist/auth-decorator.js",
+  "module": "./dist/auth-decorator.mjs",
+  "types": "./dist/auth-decorator.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepack": "vite build"
+  },
+  "dependencies": {
+    "@usual-request/shared": "workspace:*"
+  },
+  "peerDependencies": {
+    "@usual-request/core": "*"
+  },
+  "devDependencies": {
+    "@types/node": "~20.3.2",
+    "@usual-request/core": "workspace:*",
+    "vite": "~4.3.9",
+    "vite-plugin-lib-types": "~0.2.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@usual-request/shared",
+  "version": "0.0.2",
+  "main": "./dist/shared.js",
+  "module": "./dist/shared.mjs",
+  "types": "./dist/shared.d.ts",
+  "scripts": {
+    "prepack": "vite build"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "js-cookie": "3.0.5"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "3.0.3",
+    "vite": "~4.3.9",
+    "vite-plugin-lib-types": "~0.2.0"
+  }
+}

@@ -1,4 +1,36 @@
 {
   "name": "usual-request",
-  "version": "0.0.1"
+  "version": "0.0.14",
+  "main": "./dist/usual-request.js",
+  "module": "./dist/usual-request.mjs",
+  "types": "./dist/usual-request.d.ts",
+  "files": [
+    "dist",
+    "decorators.d.ts"
+  ],
+  "exports": {
+    ".": {
+      "require": "./dist/usual-request.js",
+      "import": "./dist/usual-request.mjs",
+      "types": "./dist/usual-request.d.ts"
+    },
+    "./decorators": {
+      "require": "./dist/decorators.js",
+      "import": "./dist/decorators.mjs",
+      "types": "./dist/decorators.d.ts"
+    },
+    "./*": "./*"
+  },
+  "scripts": {
+    "prepack": "vite build"
+  },
+  "dependencies": {
+    "@usual-request/core": "workspace:*",
+    "@usual-request/auth-decorator": "workspace:*"
+  },
+  "devDependencies": {
+    "rollup-plugin-commonjs": "^10.1.0",
+    "vite": "~4.3.9",
+    "vite-plugin-lib-types": "~0.2.0"
+  }
 }

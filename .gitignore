@@ -71,3 +71,7 @@ common/autoinstallers/*/.npmrc
 
 # Heft temporary files
 .heft
+
+# 构建产物
+dist
+lib
