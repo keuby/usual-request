@@ -1,6 +1,6 @@
 {
   "name": "@usual-request/shared",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "./dist/shared.js",
   "module": "./dist/shared.mjs",
   "types": "./dist/shared.d.ts",
