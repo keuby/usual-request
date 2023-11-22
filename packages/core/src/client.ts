@@ -1,4 +1,4 @@
-import type { AxiosInstance, AxiosRequestConfig } from 'axios';
+import type { AxiosInstance } from 'axios';
 import type {
   HttpClientDataHandler,
   HttpClientOptions,
@@ -6,7 +6,7 @@ import type {
 } from './interface';
 import axios, { AxiosError } from 'axios';
 import adapters from 'axios/unsafe/adapters/adapters';
-import { compose, ensureArray, isFunction, isObject, isPromise } from './utils';
+import { compose, ensureArray, isFunction, isObject } from './utils';
 import {
   createErrorHandler,
   type ErrorChainHandler,
@@ -66,8 +66,8 @@ export class HttpClient {
           default: {
             return handle(data, (code, message, customProps) => {
               const error = AxiosError.from(
-                code,
-                message,
+                { name: 'BizError', message },
+                code.toString(),
                 config,
                 request,
                 response,
