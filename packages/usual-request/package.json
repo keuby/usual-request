@@ -1,6 +1,6 @@
 {
   "name": "usual-request",
-  "version": "0.0.15",
+  "version": "0.0.1",
   "main": "./dist/usual-request.js",
   "module": "./dist/usual-request.mjs",
   "types": "./dist/usual-request.d.ts",
