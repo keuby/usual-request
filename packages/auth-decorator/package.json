@@ -1,6 +1,6 @@
 {
   "name": "@usual-request/auth-decorator",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "./dist/auth-decorator.js",
   "module": "./dist/auth-decorator.mjs",
   "types": "./dist/auth-decorator.d.ts",
